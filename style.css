@@ -1,8 +1,84 @@
-.main{
-    width: 300px;
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-seri;
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(to bottom, #67e3ce, #5dbcd9, #5090e3, #539fde);
+    background-attachment: fixed;
 }
+
+.main {
+    margin: auto;
+    margin-top: 100px;
+    width: 300px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+
+.userinp {
+    background-color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.userinp input {
+    width: 75%;
+    padding: 0% 10px;
+    height: 40px;
+    font-size: 17px;
+    color: #5090e3;
+
+}
+
+.userinp input:focus {
+    outline: none;
+}
+
+.userinp button {
+    width: 15%;
+    height: 45px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #8e49e9;
+    border: none;
+    color: white;
+}
+.reault{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    height: 40vh;
+    overflow-y: auto;
+    gap: 10px;
+
+}
+
 .todos {
-    border: 1px solid blue;
+    height: 40px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    background-color: #dddddd;
+    padding-left: 10px;
+    overflow-wrap: anywhere;
+    border-radius: 8px;
+}
+
+.deleteButton{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: #e54e3e;
+    color: white;
+}
+.editButton{
+    height: 40px;
+    width: 40px;
+    border: none;
+    background-color: #5090e3;
+    color: white;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
 }
